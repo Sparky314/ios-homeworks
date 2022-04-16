@@ -13,6 +13,10 @@
 		A567A51827D53B6700AEC429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A567A51627D53B6700AEC429 /* Main.storyboard */; };
 		A567A51A27D53B6C00AEC429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A567A51927D53B6C00AEC429 /* Assets.xcassets */; };
 		A567A51D27D53B6C00AEC429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A567A51B27D53B6C00AEC429 /* LaunchScreen.storyboard */; };
+		A567A52527D568CD00AEC429 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A567A52427D568CD00AEC429 /* ProfileView.xib */; };
+		A567A52727D6526D00AEC429 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A567A52627D6526D00AEC429 /* ProfileView.swift */; };
+		A567A52927D65A9000AEC429 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A567A52827D65A9000AEC429 /* Profile.storyboard */; };
+		A567A52B27D65AC500AEC429 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A567A52A27D65AC500AEC429 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A567A51927D53B6C00AEC429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A567A51C27D53B6C00AEC429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A567A51E27D53B6C00AEC429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A567A52427D568CD00AEC429 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		A567A52627D6526D00AEC429 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A567A52827D65A9000AEC429 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		A567A52A27D65AC500AEC429 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,10 @@
 		A567A50427D53B6700AEC429 = {
 			isa = PBXGroup;
 			children = (
+				A567A52427D568CD00AEC429 /* ProfileView.xib */,
+				A567A52627D6526D00AEC429 /* ProfileView.swift */,
+				A567A52827D65A9000AEC429 /* Profile.storyboard */,
+				A567A52A27D65AC500AEC429 /* ProfileViewController.swift */,
 				A567A50F27D53B6700AEC429 /* Navigation */,
 				A567A50E27D53B6700AEC429 /* Products */,
 			);
@@ -125,7 +137,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A567A52527D568CD00AEC429 /* ProfileView.xib in Resources */,
 				A567A51D27D53B6C00AEC429 /* LaunchScreen.storyboard in Resources */,
+				A567A52927D65A9000AEC429 /* Profile.storyboard in Resources */,
 				A567A51A27D53B6C00AEC429 /* Assets.xcassets in Resources */,
 				A567A51827D53B6700AEC429 /* Main.storyboard in Resources */,
 			);
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A567A52727D6526D00AEC429 /* ProfileView.swift in Sources */,
 				A567A51527D53B6700AEC429 /* ViewController.swift in Sources */,
+				A567A52B27D65AC500AEC429 /* ProfileViewController.swift in Sources */,
 				A567A51127D53B6700AEC429 /* AppDelegate.swift in Sources */,
 				A567A51327D53B6700AEC429 /* SceneDelegate.swift in Sources */,
 			);
